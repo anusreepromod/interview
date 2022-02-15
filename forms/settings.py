@@ -49,6 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 ROOT_URLCONF = 'forms.urls'
@@ -81,10 +82,10 @@ WSGI_APPLICATION = 'forms.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'register',
-        'USER': 'postgres',
-        'PASSWORD': '0987',
-        'HOST': 'localhost',
+        'NAME': 'dol3rg1ljvujv',
+        'USER': 'syatzgqttfqihi',
+        'PASSWORD': '4a240ab6427b1dc340a9cbc98e11e3bd74bee5a6f408f6841e90757a64b11e08',
+        'HOST': 'ec2-54-174-43-13.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
